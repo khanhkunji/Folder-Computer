@@ -1,0 +1,12 @@
+a) Số bit dùng cho địa chỉ offset
+	16KB = 2 mũ 4 * 2 mũ 10 = 16384B = 2 mũ 14 -> Số bit cần dùng là 14 bit
+
+b)Số khung trang vật lí
+	CT:kích thước bộ nhớ v/lí (chia)kích thước trang 
+	-> 800M / 16K 
+	-> 800 * 2 mũ 20B / 16 * 2 mũ 10B = 50 * 2 mũ 10 = 51200 trang
+
+c)Số trang
+	CT: Kích thước ko gian (chia) kích thước trang
+	-> 2 mũ 32B / 16K 
+	->2 mũ 32B / 2 mũ 4B = 256 trang(2 mũ 8)
